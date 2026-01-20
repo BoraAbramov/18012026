@@ -1,0 +1,18 @@
+
+people = int(input("enter how many people: "))
+
+fullrooms = people // 4 #how many fit
+notfullrooms = people % 4 #what left
+left = notfullrooms
+
+if left != 0:
+    left = "yes"
+else:
+    left = "no"
+
+if left == "yes":
+    print("Will be", fullrooms, "full room/s")
+    print("room left not full?: ", left)
+    print("how many people left?: ", notfullrooms)
+else:
+    print("Will be", fullrooms,"full room/s")
