@@ -1,0 +1,11 @@
+
+hieght = float(input("please enter hieght: "))
+while hieght <= 0:
+    hieght = float(input("please enter hieght: "))
+else:
+    base = float(input("please enter base: "))
+    while base <= 0:
+        base = float(input("please enter base: "))
+    else:
+        area = (hieght * base) / 2
+        print("area of the pizza is", area)
