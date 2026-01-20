@@ -1,0 +1,12 @@
+
+side1 = float(input("enter the side 1: "))
+side2 = float(input("enter the side 2: "))
+side3 = float(input("enter the side 3: "))
+
+if side1 == side2 == side3:
+    print("all sides are equal")
+else:
+    if side1 == side2 or side1 == side3 or side2 == side3:
+        print("only two sides are equal")
+    else:
+        print("nothing spical")
