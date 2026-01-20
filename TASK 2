@@ -1,0 +1,13 @@
+
+danny = int(input("please enter danny grade"))
+while danny > 100 or danny < 0:
+    danny = int(input("please enter danny grade"))
+else:
+    student = int(input("please enter student grade"))
+    while student < 100 or student < 0:
+        student = int(input("please enter student grade"))
+    else:
+       if danny > student:
+         print("danny grade is the highest")
+       else:
+         print("danny not the highest")
